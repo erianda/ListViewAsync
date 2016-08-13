@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                
+    >
+
+    
+<ScrollView 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+    >
+
+   
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AMIK - Manajemen Informatika"
+                android:id="@+id/amik"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Program studi Manajemen Informatika AMIK Jayanusa akan menjadi Pergurun tinggi yang berbasis kompetensi. Baik mahasiswa, lulusan maupun dosen di AMIK Jayanusa akan memiliki berbagai sertifikat kompetensi di bidang Teknologi Informasi.\n\nUpaya ini dilakukan untuk menambah daya saing mahasiswa dan lulusan dalam merebut pasar kerja serta untuk mewujudkan Perguruan tinggi yang unggul di Sumatera pada tahun 2020. AMIK Jayanusa akan terus melaksanakan kerjasama dengan lembaga-lembaga sertifikasi IT, baik yang berskala nasional maupun internasional."
+                android:id="@+id/kontenAmik"
+                android:layout_below="@+id/amik"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/header1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#8a9bf7"
+            android:gravity="center_vertical"
+            android:minHeight="20sp"
+            android:padding="15dp"
+            android:text="@string/section_1"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            />
+
+
+
+        <LinearLayout
+            android:id="@+id/section1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:minHeight="20sp"
+                android:padding="20dp"
+                android:text="Syarat"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:id="@+id/sy1"
+                android:padding="5dp"
+                android:text="1. Membawa Legalisir Ijazah SMA atau sedrajat"
+                android:textColor="#000"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:id="@+id/sy2"
+                android:padding="5dp"
+                android:text="2. Foto 3x4 2 Buah, 4x6 2 Buah"
+                android:textColor="#000"
+                android:textSize="14sp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:minHeight="?android:attr/listPreferredItemHeight"
+                android:padding="20dp"
+                android:text="Biaya Pendaftaran"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:id="@+id/b1"
+                android:padding="5dp"
+                android:text="1. Biaya Pendaftaran : Rp 200.000"
+                android:textColor="#000"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:id="@+id/b2"
+                android:padding="5dp"
+                android:text="2. Uang Pembangunan : Rp 4.000.000"
+                android:textColor="#000"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:id="@+id/b3"
+                android:padding="5dp"
+                android:text="2. Uang Semester : Rp 3.500.000/ Semester"
+                android:textColor="#000"
+                android:textSize="14sp"
+                />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/section1"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="STMIK - Sistem Komputer"
+                android:id="@+id/sk"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sarjana S1 Sistem Komputer STMIK Jayanusa diarahkan untuk memiliki jiwa, semangat dan budaya kewirausahaan yang kuat. Hal ini dicapai dengan mengadopsi sistem pengajaran yang aktif menggunakan dua bahasa (bi-lingual) Indonesia dan Inggris, serta program-program pengembangan soft-skill dan hard-skill yang variatif didukung oleh fasilitas laboratorium software dan hardware.\n\nLulusan dapat berkarya menjadi wirausahawan andal karena telah dibekali ilmu, pengalaman, dan jaringan bisnis yang siap untuk diterapkan di mana pun mereka berkiprah."
+                android:id="@+id/kontenSK"
+                android:layout_below="@+id/sk"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/header2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#8a9bf7"
+            android:gravity="center_vertical"
+            android:minHeight="20sp"
+            android:padding="15dp"
+            android:text="@string/section_2"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            />
+
+        <LinearLayout
+            android:id="@+id/section2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:minHeight="20sp"
+                android:padding="20dp"
+                android:text="Syarat"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:id="@+id/sySK1"
+                android:padding="5dp"
+                android:text="1. Membawa Legalisir Ijazah SMA atau sedrajat"
+                android:textColor="#000"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:id="@+id/sySK2"
+                android:padding="5dp"
+                android:text="2. Foto 3x4 2 Buah, 4x6 2 Buah"
+                android:textColor="#000"
+                android:textSize="14sp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:minHeight="?android:attr/listPreferredItemHeight"
+                android:padding="20dp"
+                android:text="Biaya Pendaftaran"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:id="@+id/bSK1"
+                android:padding="5dp"
+                android:text="1. Biaya Pendaftaran : Rp 200.000"
+                android:textColor="#000"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:id="@+id/bSK2"
+                android:padding="5dp"
+                android:text="2. Uang Pembangunan : Rp 4.000.000"
+                android:textColor="#000"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:id="@+id/bSK3"
+                android:padding="5dp"
+                android:text="2. Uang Semester : Rp 3.500.000/ Semester"
+                android:textColor="#000"
+                android:textSize="14sp"
+                />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/section2"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="STMIK - Sistem Informasi"
+                android:id="@+id/si"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sarjana S1 Sistem Informasi STMIK Jayanusa diarahkan untuk memiliki jiwa, semangat dan budaya kewirausahaan yang kuat. Hal ini dicapai dengan mengadopsi sistem pengajaran yang aktif menggunakan dua bahasa (bi-lingual) Indonesia dan Inggris, serta program-program pengembangan soft-skill dan hard-skill yang variatif didukung oleh fasilitas laboratorium software dan hardware.\n\nLulusan dapat berkarya menjadi wirausahawan andal karena telah dibekali ilmu, pengalaman, dan jaringan bisnis yang siap untuk diterapkan di mana pun mereka berkiprah."
+                android:id="@+id/kontenSI"
+                android:layout_below="@+id/si"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/header3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#8a9bf7"
+            android:gravity="center_vertical"
+            android:minHeight="20sp"
+            android:padding="15dp"
+            android:text="@string/section_3"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            />
+
+        <LinearLayout
+            android:id="@+id/section3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:minHeight="20sp"
+                android:padding="20dp"
+                android:text="Syarat"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:id="@+id/sSI1"
+                android:padding="5dp"
+                android:text="1. Membawa Legalisir Ijazah SMA atau sedrajat"
+                android:textColor="#000"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:id="@+id/sSI2"
+                android:padding="5dp"
+                android:text="2. Foto 3x4 2 Buah, 4x6 2 Buah"
+                android:textColor="#000"
+                android:textSize="14sp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:minHeight="?android:attr/listPreferredItemHeight"
+                android:padding="20dp"
+                android:text="Biaya Pendaftaran"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:id="@+id/bSI1"
+                android:padding="5dp"
+                android:text="1. Biaya Pendaftaran : Rp 200.000"
+                android:textColor="#000"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:id="@+id/bSI2"
+                android:padding="5dp"
+                android:text="2. Uang Pembangunan : Rp 4.000.000"
+                android:textColor="#000"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:id="@+id/bSI3"
+                android:padding="5dp"
+                android:text="2. Uang Semester : Rp 3.500.000/ Semester"
+                android:textColor="#000"
+                android:textSize="14sp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

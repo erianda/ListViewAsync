@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">mSTMIK</string>
+
+    <string name="hello_world">Hello Its me, Aldo Erianda</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_1"> + Syarat dan Pendaftaran AMIK >>> </string>
+    <string name="section_2"> + Syarat dan Pendaftaran STMIK SK >>></string>
+    <string name="section_3"> + Syarat dan Pendaftaran STMIK SI >>></string>
+    <string name="item_11">Item 11</string>
+    <string name="item_12">Item 12</string>
+    <string name="item_13">Item 13</string>
+    <string name="item_21">Item 21</string>
+    <string name="item_22">Item 22</string>
+    <string name="item_23">Item 23</string>
+    <string name="item_31">Item 31</string>
+    <string name="item_32">Item 32</string>
+    <string name="item_33">Item 33</string>
+</resources>

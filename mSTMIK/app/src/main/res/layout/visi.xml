@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/imageView"
+    android:src="@drawable/header"
+    android:layout_marginTop="-17dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"/>
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/imageView"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Visi"
+            android:textStyle="bold"
+            android:id="@+id/judul"
+            android:textSize="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/content"
+            android:layout_below="@+id/judul"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Menjadi Perguruan Tinggi yang terkemuka di Sumatera dan Berbasis sertifikasi kompetensi pada tahun 2025."
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Misi"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:id="@+id/misi"
+            android:textSize="20dp"
+            android:layout_below="@+id/content"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/content2"
+            android:layout_below="@+id/misi"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical|right"
+            android:text="1.Meningkatkan pelaksanaan Tridharma Perguruan tinggi (Pendidikan, Penelitian dan Pengabdian Masyarakat) dalam rangka menjadi Perguruan Tinggi terkemuka di Sumatera tahun 2025.\n\n2. Meningkatkan pembangunan sarana dan prasarana untuk menunjang pelaksanaan tridharma perguruan tinggi.\n\n3. Meningkatkan kualitas tenaga pendidik dan kependidikan.\n\n4. Meningkatkan kerjasama dengan program studi sejenis baik berskala lokal, nasional maupun internasional.\n\n5. Menghasilkan lulusan berakhlak baik, berkualitas, berjiwa wirausaha, mampu berbahasa inggris, kompeten di bidangnya sehingga sanggup bersaing di tingkat nasional dan internasional.\n\n6. Melaksanakan berbagai sertifikasi kompetensi dalam rangka menghasilkan lulusan yang kompetitif.\n\n7. Melaksanakan kerja sama dengan lembaga-lembaga penyelenggara sertifikasi IT dalam rangka mewujudkan Program Studi berbasis sertifikasi kompetensi pada tahun 2025.
+"
+            />
+    </RelativeLayout>
+</ScrollView>
+</RelativeLayout>

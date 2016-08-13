@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fram1"
+        android:background="@color/biru"
+
+        >
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/logojayanusa"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_above="@+id/imageView"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Perguruan Tinggi Komputer"
+        android:gravity="center_horizontal"
+        android:layout_toRightOf="@+id/imageView2"
+        android:textSize="22dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/hitam"
+        android:id="@+id/textView"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STMIK - AMIK Jayanusa"
+            android:gravity="center_horizontal"
+            android:textSize="18dp"
+            android:textColor="@color/hitam"
+            android:id="@+id/textView2"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_above="@+id/imageView"
+            android:layout_centerHorizontal="true"/>
+
+    </FrameLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/fram1"
+        android:src="@drawable/header"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/biru"
+        />
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/imageView"
+    >
+        <RelativeLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/biru"
+            android:layout_below="@+id/imageView"
+            >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageView3"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/visi"
+            android:layout_marginLeft="86dp"
+            android:layout_marginStart="86dp"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageView4"
+            android:src="@drawable/jurusan"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/button4"
+            android:layout_alignLeft="@+id/imageView3"
+            android:layout_alignStart="@+id/imageView3"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageView5"
+            android:src="@drawable/fasiltas"
+            android:layout_marginTop="5dp"
+
+            android:layout_below="@+id/button2"
+            android:layout_alignLeft="@+id/imageView3"
+            android:layout_alignStart="@+id/imageView3"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageView6"
+            android:src="@drawable/berita"
+            android:layout_below="@+id/button"
+            android:layout_marginTop="5dp"
+            android:layout_alignLeft="@+id/imageView3"
+            android:layout_alignStart="@+id/imageView3"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageView7"
+            android:src="@drawable/lokasi"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/button5"
+            android:layout_alignLeft="@+id/imageView5"
+            android:layout_alignStart="@+id/imageView5"/>
+    <Button
+        android:textColor="@color/hitam"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Visi"
+        android:id="@+id/button"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="visi"
+        android:singleLine="false"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+    <Button
+        android:textColor="@color/hitam"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Jurusan"
+        android:onClick="jurusan"
+        android:id="@+id/button2"
+        android:layout_below="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="-5dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <Button
+        android:textColor="@color/hitam"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Fasilitas"
+        android:onClick="fasilitas"
+        android:id="@+id/button4"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="-5dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+    <Button
+        android:textColor="@color/hitam"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Berita"
+        android:id="@+id/button5"
+        android:layout_below="@+id/button4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="-5dp"
+        android:onClick="berita"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+    <Button
+        android:textColor="@color/hitam"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Lokasi"
+        android:onClick="lokasi"
+        android:id="@+id/button6"
+        android:layout_below="@+id/button5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="-5dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+        </RelativeLayout>
+</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fram1"
+        android:background="@color/biru"
+        android:layout_marginBottom="-10dp"
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/logojayanusa"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_above="@+id/imageView"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Perguruan Tinggi Komputer"
+            android:gravity="center_horizontal"
+            android:layout_toRightOf="@+id/imageView2"
+            android:textSize="22dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/hitam"
+            android:id="@+id/textView"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STMIK - AMIK Jayanusa"
+            android:gravity="center_horizontal"
+            android:textSize="18dp"
+            android:textColor="@color/hitam"
+            android:id="@+id/textView2"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_above="@+id/imageView"
+            android:layout_centerHorizontal="true"/>
+
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/fram1"
+        android:src="@drawable/header"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Manajemen Informatika"
+                android:textStyle="bold"
+                android:id="@+id/judul"
+                android:textSize="20dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/content"
+                android:layout_below="@+id/judul"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Program studi Manajemen Informatika AMIK Jayanusa akan menjadi Pergurun tinggi yang berbasis kompetensi. Baik mahasiswa, lulusan maupun dosen di AMIK Jayanusa akan memiliki berbagai sertifikat kompetensi di bidang Teknologi Informasi.\n\nUpaya ini dilakukan untuk menambah daya saing mahasiswa dan lulusan dalam merebut pasar kerja serta untuk mewujudkan Perguruan tinggi yang unggul di Sumatera pada tahun 2020. AMIK Jayanusa akan terus melaksanakan kerjasama dengan lembaga-lembaga sertifikasi IT, baik yang berskala nasional maupun internasional.
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sistem Informasi"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:id="@+id/misi"
+                android:textSize="20dp"
+                android:layout_below="@+id/content"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/content2"
+                android:layout_below="@+id/misi"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Sarjana S1 Sistem Informasi STMIK Jayanusa diarahkan untuk memiliki jiwa, semangat dan budaya kewirausahaan yang kuat. Hal ini dicapai dengan mengadopsi sistem pengajaran yang aktif menggunakan dua bahasa (bi-lingual) Indonesia dan Inggris, serta program-program pengembangan soft-skill dan hard-skill yang variatif didukung oleh fasilitas laboratorium software dan hardware. Lulusan dapat berkarya menjadi wirausahawan andal karena telah dibekali ilmu, pengalaman, dan jaringan bisnis yang siap untuk diterapkan di mana pun mereka berkiprah."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sistem Komputer"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:id="@+id/misi2"
+                android:textSize="20dp"
+                android:layout_below="@+id/content"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/content3"
+                android:layout_below="@+id/misi2"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Sarjana S1 Sistem Komputer STMIK Jayanusa diarahkan untuk memiliki jiwa, semangat dan budaya kewirausahaan yang kuat. Hal ini dicapai dengan mengadopsi sistem pengajaran yang aktif menggunakan dua bahasa (bi-lingual) Indonesia dan Inggris, serta program-program pengembangan soft-skill dan hard-skill yang variatif didukung oleh fasilitas laboratorium software dan hardware. Lulusan dapat berkarya menjadi wirausahawan andal karena telah dibekali ilmu, pengalaman, dan jaringan bisnis yang siap untuk diterapkan di mana pun mereka berkiprah."
+                />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
